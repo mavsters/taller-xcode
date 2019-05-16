@@ -14,6 +14,11 @@
 		479A4568228DAB95002A2B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479A4566228DAB95002A2B3E /* LaunchScreen.storyboard */; };
 		479A4573228DAB95002A2B3E /* taller_xcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A4572228DAB95002A2B3E /* taller_xcodeTests.swift */; };
 		479A457E228DAB95002A2B3E /* taller_xcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A457D228DAB95002A2B3E /* taller_xcodeUITests.swift */; };
+		479A4591228DB47C002A2B3E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 479A458C228DB47C002A2B3E /* 1.jpg */; };
+		479A4592228DB47C002A2B3E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 479A458D228DB47C002A2B3E /* 2.jpg */; };
+		479A4593228DB47C002A2B3E /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 479A458E228DB47C002A2B3E /* 5.jpg */; };
+		479A4594228DB47C002A2B3E /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 479A458F228DB47C002A2B3E /* 3.jpeg */; };
+		479A4595228DB47C002A2B3E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 479A4590228DB47C002A2B3E /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		479A4579228DAB95002A2B3E /* taller-xcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "taller-xcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		479A457D228DAB95002A2B3E /* taller_xcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taller_xcodeUITests.swift; sourceTree = "<group>"; };
 		479A457F228DAB95002A2B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479A458C228DB47C002A2B3E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../Downloads/55215016/1.jpg; sourceTree = "<group>"; };
+		479A458D228DB47C002A2B3E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../../Downloads/55215016/2.jpg; sourceTree = "<group>"; };
+		479A458E228DB47C002A2B3E /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = ../../../../Downloads/55215016/5.jpg; sourceTree = "<group>"; };
+		479A458F228DB47C002A2B3E /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpeg; path = ../../../../Downloads/55215016/3.jpeg; sourceTree = "<group>"; };
+		479A4590228DB47C002A2B3E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../../../Downloads/55215016/4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		479A455C228DAB92002A2B3E /* taller-xcode */ = {
 			isa = PBXGroup;
 			children = (
+				479A458B228DB27B002A2B3E /* media */,
 				479A455D228DAB92002A2B3E /* AppDelegate.swift */,
 				479A455F228DAB92002A2B3E /* ViewController.swift */,
 				479A4561228DAB92002A2B3E /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				479A457F228DAB95002A2B3E /* Info.plist */,
 			);
 			path = "taller-xcodeUITests";
+			sourceTree = "<group>";
+		};
+		479A458B228DB27B002A2B3E /* media */ = {
+			isa = PBXGroup;
+			children = (
+				479A458C228DB47C002A2B3E /* 1.jpg */,
+				479A458D228DB47C002A2B3E /* 2.jpg */,
+				479A458F228DB47C002A2B3E /* 3.jpeg */,
+				479A4590228DB47C002A2B3E /* 4.jpg */,
+				479A458E228DB47C002A2B3E /* 5.jpg */,
+			);
+			path = media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +252,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479A4595228DB47C002A2B3E /* 4.jpg in Resources */,
 				479A4568228DAB95002A2B3E /* LaunchScreen.storyboard in Resources */,
+				479A4591228DB47C002A2B3E /* 1.jpg in Resources */,
+				479A4592228DB47C002A2B3E /* 2.jpg in Resources */,
+				479A4593228DB47C002A2B3E /* 5.jpg in Resources */,
 				479A4565228DAB95002A2B3E /* Assets.xcassets in Resources */,
+				479A4594228DB47C002A2B3E /* 3.jpeg in Resources */,
 				479A4563228DAB92002A2B3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
