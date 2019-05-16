@@ -95,55 +95,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dNX-Dq-HSK">
-                                <rect key="frame" x="0.0" y="64" width="346" height="593"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dNX-Dq-HSK">
+                                <rect key="frame" x="37" y="64" width="300" height="586"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Jd-62-tAY">
-                                        <rect key="frame" x="0.0" y="0.0" width="346" height="30"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w4q-Cn-izT">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="208"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5K-U5-Hpi">
-                                                <rect key="frame" x="0.0" y="0.0" width="346" height="30"/>
-                                                <state key="normal" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7Q-B8-2nh">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="208"/>
+                                                <state key="normal" image="1.jpg">
+                                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
                                                 <connections>
-                                                    <segue destination="mHa-OM-Waj" kind="show" id="jS8-MR-2SR"/>
+                                                    <segue destination="mHa-OM-Waj" kind="show" id="vO0-rd-crg"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w4q-Cn-izT">
-                                        <rect key="frame" x="0.0" y="30" width="346" height="169"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="EiT-hk-MWs">
-                                                <rect key="frame" x="0.0" y="0.0" width="300" height="169"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7Q-B8-2nh">
-                                                <rect key="frame" x="300" y="0.0" width="46" height="169"/>
-                                                <state key="normal" title="Button"/>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SvB-ue-NiJ">
-                                        <rect key="frame" x="0.0" y="199" width="346" height="169"/>
+                                        <rect key="frame" x="0.0" y="228" width="300" height="169"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="I4y-aa-Pny">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPS-ML-SwL">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="169"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPS-ML-SwL">
-                                                <rect key="frame" x="300" y="0.0" width="46" height="169"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" image="2.png"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGy-f1-HR3">
-                                        <rect key="frame" x="0.0" y="368" width="346" height="225"/>
+                                        <rect key="frame" x="0.0" y="417" width="300" height="169"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.png" translatesAutoresizingMaskIntoConstraints="NO" id="l92-hG-FTN">
-                                                <rect key="frame" x="0.0" y="0.0" width="300" height="225"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2O9-6Y-hx3">
-                                                <rect key="frame" x="300" y="0.0" width="46" height="225"/>
-                                                <state key="normal" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2O9-6Y-hx3">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="169"/>
+                                                <state key="normal" image="3.jpg"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -204,6 +188,5 @@
         <image name="1.jpg" width="300" height="208"/>
         <image name="2.png" width="300" height="169"/>
         <image name="3.jpg" width="300" height="169"/>
-        <image name="4.png" width="300" height="225"/>
     </resources>
 </document>
