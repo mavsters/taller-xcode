@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailViewController.swift
 //  CollectionView_Intro_Inicio
 //
 //  Created by Luis Rollon Gordo on 27/1/17.
@@ -8,18 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailViewController: UIViewController {
+    
+    @IBOutlet weak var detailImage: UIImageView!
+    var detailName: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        title = detailName
+        detailImage.image = UIImage.init(named: detailName!)
+
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
     }
 
 
 }
-

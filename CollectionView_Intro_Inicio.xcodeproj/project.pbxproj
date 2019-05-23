@@ -8,20 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		13D244851E3BA31E007554A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D244841E3BA31E007554A9 /* AppDelegate.swift */; };
-		13D244871E3BA31E007554A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D244861E3BA31E007554A9 /* ViewController.swift */; };
+		13D244871E3BA31E007554A9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D244861E3BA31E007554A9 /* CollectionViewController.swift */; };
 		13D2448A1E3BA31E007554A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D244881E3BA31E007554A9 /* Main.storyboard */; };
 		13D2448C1E3BA31E007554A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D2448B1E3BA31E007554A9 /* Assets.xcassets */; };
 		13D2448F1E3BA31E007554A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D2448D1E3BA31E007554A9 /* LaunchScreen.storyboard */; };
+		13D244971E3BA42C007554A9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D244961E3BA42C007554A9 /* DetailViewController.swift */; };
+		13D244991E3BA451007554A9 /* SeriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D244981E3BA451007554A9 /* SeriesCollectionViewCell.swift */; };
+		470104D62296F41700730D66 /* CollectionView_Intro_Inicio.app in Resources */ = {isa = PBXBuildFile; fileRef = 13D244811E3BA31E007554A9 /* CollectionView_Intro_Inicio.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13D244811E3BA31E007554A9 /* CollectionView_Intro_Inicio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView_Intro_Inicio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D244841E3BA31E007554A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13D244861E3BA31E007554A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13D244861E3BA31E007554A9 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		13D244891E3BA31E007554A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13D2448B1E3BA31E007554A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D2448E1E3BA31E007554A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13D244901E3BA31E007554A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D244961E3BA42C007554A9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		13D244981E3BA451007554A9 /* SeriesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				13D244841E3BA31E007554A9 /* AppDelegate.swift */,
-				13D244861E3BA31E007554A9 /* ViewController.swift */,
+				13D244861E3BA31E007554A9 /* CollectionViewController.swift */,
+				13D244961E3BA42C007554A9 /* DetailViewController.swift */,
+				13D244981E3BA451007554A9 /* SeriesCollectionViewCell.swift */,
 				13D244881E3BA31E007554A9 /* Main.storyboard */,
 				13D2448B1E3BA31E007554A9 /* Assets.xcassets */,
 				13D2448D1E3BA31E007554A9 /* LaunchScreen.storyboard */,
@@ -96,7 +103,6 @@
 				TargetAttributes = {
 					13D244801E3BA31E007554A9 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 2NAFC97M9Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +132,7 @@
 			files = (
 				13D2448F1E3BA31E007554A9 /* LaunchScreen.storyboard in Resources */,
 				13D2448C1E3BA31E007554A9 /* Assets.xcassets in Resources */,
+				470104D62296F41700730D66 /* CollectionView_Intro_Inicio.app in Resources */,
 				13D2448A1E3BA31E007554A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D244871E3BA31E007554A9 /* ViewController.swift in Sources */,
+				13D244971E3BA42C007554A9 /* DetailViewController.swift in Sources */,
+				13D244871E3BA31E007554A9 /* CollectionViewController.swift in Sources */,
 				13D244851E3BA31E007554A9 /* AppDelegate.swift in Sources */,
+				13D244991E3BA451007554A9 /* SeriesCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2NAFC97M9Y;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CollectionView_Intro_Inicio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.efectoapple.CollectionView-Intro-Inicio";
@@ -272,7 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2NAFC97M9Y;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CollectionView_Intro_Inicio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.efectoapple.CollectionView-Intro-Inicio";
@@ -300,6 +309,7 @@
 				13D244951E3BA31E007554A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
